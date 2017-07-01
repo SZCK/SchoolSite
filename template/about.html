@@ -1,0 +1,33 @@
+<script>title("关于作品");</script>
+<h1 class="page-header">关于作品 <small>全异步Json通信前端 可选后端</small></h1>
+<p>本页面使用HTML5构建，需要IE8以上的版本浏览（IE8通过html5shiv实现，失去了很多效果）。推荐采用Chrome或firefox内核浏览器。IE推荐10及以上版本。响应式界面，兼容移动设备。前端我们采用了全部异步非阻塞的设置，除页面外，均Json通信。对于URL，我们使用Hash(#)的形式，和pjax不同，只要有一个index.html，就可以动态调取所有内容。加载之类的动画，非常漂亮。</p>
+<h3 class="page-header">使用的技术</h3>
+<ul id="x-about-tech">
+    <li>正在加载……</li>
+</ul>
+<p>对于IE8，还有：*html5shiv,*respond,*excanvas</p>
+<p>注：打*为浏览器非原生支持。</p>
+<h3 class="page-header">制作人员</h3>
+<dl id="x-about-people" class="dl-horizontal">
+    <dt>加载中……</dt><dd>正在加载……</dd>
+</dl>
+
+<script type="text/javascript" charset="utf-8">
+    json("about",function(data){
+        var tech = data.tech;
+        var techHtml = "";
+        for(var i=0; i < tech.length; ++i){
+            techHtml=techHtml+"<li>"+tech[i]+"</li>\r\n";
+        }
+        $("#x-about-tech").html(techHtml);
+        //--------------------------//
+        var people = data.people;
+        var peopleHtml = "";
+        for(i=0; i < people.length; ++i){
+            peopleHtml = peopleHtml+"<dt>"+people[i].name+"</dt><dd>"+people[i].man+"</dd>\r\n";
+        }
+        $("#x-about-people").html(peopleHtml);
+    });
+</script>
+
+<script>if(window.safeCode!="SZCK"){document.getElementsByTagName("body")[0].innerHTML="非法访问";}</script>

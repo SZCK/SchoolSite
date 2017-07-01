@@ -1,0 +1,31 @@
+{
+    "tech" : [
+        "HTML5","CSS 3","*BootStrap","*jQuery","*jQuery.pjax","window.location.hash","Json","WebKit"
+    ],
+    "people" : [
+        {
+            "name" : "HTML实现",
+            "man"  : "徐天乐"
+        },
+        {
+            "name" : "JS实现",
+            "man"  : "徐天乐"
+        },
+        {
+            "name" : "异步实现/Hash",
+            "man"  : "徐天乐"
+        },
+        {
+            "name" : "美工/图片",
+            "man"  : "马晓龙"
+        },
+        {
+            "name" : "页面布局",
+            "man"  : "马晓龙/徐天乐"
+        },
+        {
+            "name" : "CSS撰写",
+            "man"  : "徐天乐"
+        }
+    ]
+}

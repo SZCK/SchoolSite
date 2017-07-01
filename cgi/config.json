@@ -1,0 +1,10 @@
+{
+    "DB":"School",
+    "ActionRoute" : {
+        "get" : "_XDOBridge_get"
+    },
+    "Allow" : {
+        "Article" : {"get":1,"put":0,"ins":0,"del":0},
+        "Comment" : {"get":1,"put":0,"ins":1,"del":0}
+    }
+}
