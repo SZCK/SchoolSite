@@ -63,40 +63,26 @@
             </div>
         <![endif]-->
         <!--主导航-->
-        <header class="navbar navbar-static-top x-docs-nav" id="top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="#/index" class="navbar-brand"><img src="./static/img/small_logo.png" class="x-nav-logo-img" />&nbsp;SZCK</a>
-                </div>
-                <!--/.navbar-header-->
-                <nav id="x-navbar" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li id="-index"><a href="#/index">首页</a></li>
-                        <li id="-about-learnMore"><a href="#/about/learnMore">了解更多</a></li>
-                        <li><a href="#/ws/web">WebSocket</a></li>
-                        <li><a href="../javascript/">JavaScript 插件</a></li>
-                        <li><a href="../customize/">定制</a></li>
-                        <li><a href="http://www.youzhan.org" target="_blank">网站实例</a></li>
-                    </ul>
-                    <!--/.navbar-nav-->
-                    <ul class="nav navbar-nav navbar-right">
-                        <li id="-about"><a href="#/about">关于作品</a></li>
-                        <li><a href="http://www.bootcss.com/" target="_blank">Bootstrap中文网</a></li>
-                    </ul>
-                    <!--/.navbar-right-->
-                </nav>
-                <!--/.x-navbar-->
+        <header class="x-header">
+            <div class="x-header-topNav">
+                <ul class="x-header-topNav-left list-inline">
+                    <li><a href="#/index">首页</a></li>
+                </ul>
+                <ul class="x-header-topNav-right list-inline">
+                    <li><a href="/old/">返回旧版</a></li>
+                </ul>
             </div>
-            <!--/.container-->
+            <div class="x-header-title">
+                <div class="x-header-title-logo"></div>
+            </div>
+            <div class="x-header-nav">
+                <ul class="list-inline">
+                    <li><a href="#/index">首页</a></li>
+                </ul>
+            </div>
         </header>
         <!--浮动修复-->
-        <div class="x-fiftypx">&nbsp;</div>
+        <div class="x-float-fix-margin">&nbsp;</div>
         <!--主容器-->
         <div id="main" class="container-fluid">
             <!--上边距-->

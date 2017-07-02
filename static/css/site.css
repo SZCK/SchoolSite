@@ -1,19 +1,22 @@
 /*Copyright SZCK 2016-2017*/
 
-/*body{*/
-/*    background-color: grey;*/
-/*}*/
-
+.x-float-fix-margin{height:0px; display:block;}
 .x-fiftypx{height:50px; display:block;}
 
 /*导航css*/
-.x-docs-nav {margin-bottom: 0; background-color: #CEF2ED; border-bottom: 0; position:fixed; top:0; left:0; right:0;}
-.x-docs-nav .navbar-brand, .x-docs-nav .navbar-nav > li > a {font-weight: 500; color: #563d7c;}
-.x-docs-nav .navbar-nav > li > a:hover, .x-docs-nav .navbar-nav > .active > a, .x-docs-nav .navbar-nav > .active > a:hover { color: #463265; background-color: #f9f9f9;}
-.x-docs-nav .navbar-toggle .icon-bar {background-color: #563d7c;}
-.x-docs-nav .navbar-header .navbar-toggle {border-color: #CEF2ED;}
-.x-docs-nav .navbar-header .navbar-toggle:hover, .x-docs-nav .navbar-header .navbar-toggle:focus {background-color: #f9f9f9; border-color: #f9f9f9;}
-.x-nav-logo-img {width:21px; height:21px; float:left;}
-
+.x-header{ background-color: rgb(73,90,128); height: 185px; }
+.x-header-topNav { background-color: rgba(0,0,0,0.3); height: 30px; }
+.x-header-topNav ul {padding: 5px; padding-left: 20px; padding-right: 20px;}
+.x-header-topNav ul li a { color: white; font-size: 14px; }
+.x-header-topNav-left{ float: left; }
+.x-header-topNav-right{ float: right; }
+.x-header-title { background-color: rgba(0,0,0,0.1); height: 110px; padding: 20px; }
+.x-header-title-logo { background-image: url(/static/img/header_logo.png); background-repeat: no-repeat; height: 75px; }
+.x-header-nav{ background-color: rgba(100,100,100,0.3); height: 45px; }
+.x-header-nav ul { padding: 5px; padding-left: 25px; padding-right: 25px; }
+.x-header-nav ul li { height: 35px; padding: 5px 0px; width: 100px; }
+.x-header-nav ul li:hover { background-color: white; }
+.x-header-nav ul li a { display: inline-block; width: 100px; color: white; font-size: 17px; text-decoration: none; text-align: center; }
+.x-header-nav ul li a:hover{ color: rgb(73,90,128); text-decoration: none; }
 /*加载css*/
 .loader{text-align:center;margin-top:100px;}.loader span{display:inline-block;vertical-align:middle;width:10px;height:10px;margin:50px auto;background:black;border-radius:50px;-webkit-animation:loader .9s infinite alternate;-moz-animation:loader .9s infinite alternate}.loader span:nth-of-type(2){-webkit-animation-delay:.3s;-moz-animation-delay:.3s}.loader span:nth-of-type(3){-webkit-animation-delay:.6s;-moz-animation-delay:.6s}@-webkit-keyframes loader{0%{width:10px;height:10px;opacity:.9;-webkit-transform:translateY(0)}100%{width:24px;height:24px;opacity:.1;-webkit-transform:translateY(-21px)}}@-moz-keyframes loader{0%{width:10px;height:10px;opacity:.9;-moz-transform:translateY(0)}100%{width:24px;height:24px;opacity:.1;-moz-transform:translateY(-21px)}}
