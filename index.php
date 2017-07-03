@@ -81,10 +81,8 @@
                 </ul>
             </div>
         </header>
-        <!--浮动修复-->
-        <div class="x-float-fix-margin">&nbsp;</div>
         <!--主容器-->
-        <div id="main" class="container-fluid">
+        <div id="main" class="container-fluid" style="padding-top: 3px;">
             <!--上边距-->
             <div class="x-fiftypx"></div>
             <!--加载提示-->
